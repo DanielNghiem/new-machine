@@ -1,0 +1,12 @@
+#!/bin/bash
+# shebang.  Signifies that this script should run with bash
+
+# Remember to make this file executable by changing permissions
+# chmod u+x hello-world
+
+echo Hello, World!
+
+if test ! $(which brew)
+then
+    echo "   Installing Homebrew for you."
+fi
