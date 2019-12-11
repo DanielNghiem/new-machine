@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git config --global user.name "Daniel Nghiem"
+git config --global user.email nghiem.daniel@yahoo.com
+git config --global core.editor vim
+git config --global github.user danielnghiem
