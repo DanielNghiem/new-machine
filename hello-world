@@ -6,3 +6,9 @@
 
 echo Hello, World!
 
+if test ! $(which brew)
+then
+    echo "   Installing Homebrew for you."
+else
+    echo "   You already have Homebrew installed."
+fi
