@@ -6,7 +6,3 @@
 
 echo Hello, World!
 
-if test ! $(which brew)
-then
-    echo "   Installing Homebrew for you."
-fi

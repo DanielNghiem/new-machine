@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# check for Homebrew
+if test ! $(which brew)
+then
+    echo "  Installing Homebrew for you."
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Update to latest Homebrew
+echo "Updating Homebrew."
+brew update
+
+echo "Upgrading already-installed formulae."
+brew upgrade
+
+
+
+
+
