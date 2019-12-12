@@ -18,7 +18,9 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install spotify
 brew cask install iterm2
-
+brew cask install dropbox
+brew cask install 1password
+brew cask install sublime-text
 
 # cleanup
 brew cleanup
